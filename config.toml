@@ -1,0 +1,40 @@
+theme = "cyberscape"
+baseURL = "https://b-init.github.io/"
+languageCode = 'en-in'
+title = "binit's crazy funky untitled website"
+
+
+# Enable this for tailwind in markdown files
+[markup.goldmark.renderer]
+unsafe=true
+
+# Add any links to things in /content/ here
+[[menu.main]]
+name = "projects"
+url = "/projects/"
+weight = 1
+
+[[menu.main]]
+name = "artsy"
+url = "/artsy/"
+weight = 2
+
+[[menu.main]]
+name = "rants"
+url = "/rants/"
+weight = 3
+
+[[menu.main]]
+name = "references"
+url = "/references/"
+weight = 4
+
+[[menu.main]]
+name = "about"
+url = "/about/"
+weight = 5
+
+[services]
+  [services.disqus]
+    shortname = 'b-init-github-io'
+

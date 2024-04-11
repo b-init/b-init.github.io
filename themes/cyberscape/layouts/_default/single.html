@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<main
+  class="w-full h-full bg-white border-4 border-gray-200 p-4 overflow-x-auto markdown"
+>
+  {{ .Content }}
+  <p>
+    <a href="/"> >> Home</a>
+  </p>
+  
+  <script src="https://giscus.app/client.js"
+        data-repo="b-init/b-init.github.io"
+        data-repo-id="R_kgDOLkZ51Q"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLkZ51c4Cenym"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="noborder_light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+</main>
+
+
+{{ end }}
+
