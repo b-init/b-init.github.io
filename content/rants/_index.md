@@ -33,3 +33,5 @@ rants are being thought about as we speak
 
 
 - [An oddly personal write-up about writing - 20th Dec, 2024](/rants/writing)
+
+
